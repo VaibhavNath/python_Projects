@@ -1,6 +1,6 @@
 user_input = str(input("Enter the words to convert to acronym: "))
 text = user_input.split()
-a = ' '
+a = ' '       #creates an empty string
 for i in text:
     a = a + str(i[0]).upper()
 print(a)
