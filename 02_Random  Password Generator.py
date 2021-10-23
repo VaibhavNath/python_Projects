@@ -1,6 +1,6 @@
 #Random Password Generator
 
-'''import random , string
+import random , string
 
 def password(length,num=False,strength='weak'):
     """length of password , num if you want a number,and strength (weak,strong,very)"""
@@ -44,7 +44,7 @@ print(password(6,num=True))
 
 print(password(10,num=True,strength='strong'))
 
-print(password(15,num=True,strength='very'))'''
+print(password(15,num=True,strength='very'))
 
 
 
